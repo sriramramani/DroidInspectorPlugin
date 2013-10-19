@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.sriramramani.droid.inspector.editors.DroidInspectorEditor"
+            default="true"
+            extensions="dix"
+            icon="icons/icon.gif"
+            id="com.sriramramani.droid.inspector.editors.DroidInspectorEditor"
+            name="Droid Inspector Editor">
+      </editor>
+   </extension>
+   <extension
+         point="com.android.ide.eclipse.ddms.clientAction">
+      <clientAction
+            class="com.sriramramani.droid.inspector.actions.DroidInspectorAction">
+      </clientAction>
+   </extension>
+
+</plugin>
