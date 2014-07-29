@@ -36,7 +36,7 @@ import com.sriramramani.droid.inspector.DroidInspectorPlugin;
 import com.sriramramani.droid.inspector.client.DroidClient;
 
 public class DroidInspectorAction extends Action implements IClientAction {
-    private static final int DEFAULT_SERVER_PORT = 5555;
+    private static final int DEFAULT_SERVER_PORT = 4545;
     private Client mClient;
 
     public DroidInspectorAction() {

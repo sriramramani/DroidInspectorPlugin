@@ -16,7 +16,7 @@ import java.nio.channels.SocketChannel;
 
 public class DroidClient {
     private static final String LOCAL_HOST = "127.0.0.1";
-    public static final int DEFAULT_LOCAL_PORT = 5555;
+    public static final int DEFAULT_LOCAL_PORT = 4545;
 
     public static final String COMMAND_PRINT_HIERARCHY = "print";
 
